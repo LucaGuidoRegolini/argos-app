@@ -44,6 +44,7 @@ For te project is necessary the kind Kubernetes
 The name of image is **lucagregolini**/argocd-fullcycle
 
 is necessary create a token in docker hub and add in github secrets
+is necessary change the Workflow permissions for the Read and write permissions because the cd.yaml need make a push
 
 
 ### Utils
@@ -60,3 +61,15 @@ Explain the ports map
 
 >  kubectl delete svc go-argos-app | kubectl delete deploy go-argos-app
 Delete services of Kubernetes
+
+
+## Argo config
+
+![Argo print config](/images/argo-config.PNG)
+
+
+
+for the argo config is necessary create a name, set the git url and set the Kubernetes manifest folder
+
+
+sync politic define is the sync is manual or not, for the production is better the sync is automatic 
