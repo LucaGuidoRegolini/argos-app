@@ -9,4 +9,4 @@ namespace: go-argos-app
 images:
 - name: go-argos-app
   newName: lucagregolini/argocd-fullcycle
-  newTag: d344a610c076ac59e156f12c26a90ace6d0c5584
+  newTag: f8735f3e57642d44ce04623de74ea7c19e4b2971
