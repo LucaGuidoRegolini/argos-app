@@ -56,3 +56,7 @@ List the pods in the cluster
 
 > kubectl port-forward svc/go-argos-app 8080:8080
 Explain the ports map
+
+
+>  kubectl delete svc go-argos-app | kubectl delete deploy go-argos-app
+Delete services of Kubernetes
