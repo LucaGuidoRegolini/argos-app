@@ -24,6 +24,8 @@ For the Kustomize install
 
 The name of image is **lucagregolini**/argocd-fullcycle
 
+is necessary create a token in docker hub and add in github secrets
+
 
 ### Utils
 
